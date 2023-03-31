@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscopeCommon", "TranscopeCommon\TranscopeCommon.csproj", "{03E04AD0-23A7-4907-8E3E-6C332EDC6175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscopeCommon", "TranscopeCommon\TranscopeCommon.csproj", "{03E04AD0-23A7-4907-8E3E-6C332EDC6175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransscopeBack", "TransscopeBack\TransscopeBack.csproj", "{BB459DBB-2750-4F5C-ACCB-09DBB236BFED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransscopeBack", "TransscopeBack\TransscopeBack.csproj", "{BB459DBB-2750-4F5C-ACCB-09DBB236BFED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransScopeService", "TransScopeService\TransScopeService.csproj", "{F103AF98-89A5-4CB1-BF95-E5D50F88F7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-TRANSSCOPE", "API-TRANSSCOPE\API-TRANSSCOPE.csproj", "{88D7EF58-7F39-4DB1-9A0B-237E0E5A8B1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{BB459DBB-2750-4F5C-ACCB-09DBB236BFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB459DBB-2750-4F5C-ACCB-09DBB236BFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB459DBB-2750-4F5C-ACCB-09DBB236BFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F103AF98-89A5-4CB1-BF95-E5D50F88F7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F103AF98-89A5-4CB1-BF95-E5D50F88F7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F103AF98-89A5-4CB1-BF95-E5D50F88F7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F103AF98-89A5-4CB1-BF95-E5D50F88F7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D7EF58-7F39-4DB1-9A0B-237E0E5A8B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D7EF58-7F39-4DB1-9A0B-237E0E5A8B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D7EF58-7F39-4DB1-9A0B-237E0E5A8B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D7EF58-7F39-4DB1-9A0B-237E0E5A8B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
